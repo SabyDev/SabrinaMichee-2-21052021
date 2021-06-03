@@ -547,7 +547,7 @@ footer{
     .activity1 img{
         width: 95%;
         margin: auto;
-        height: 12em;
+        height: 8.8em;
     }
     .activity2{
         width: 90%;
@@ -557,6 +557,81 @@ footer{
     }
     footer{
         flex-direction: column;
-    }
-
+        }
 } 
+@media screen and (min-width :768px) and (max-width :1300px){
+body{
+    margin-left: 2em;
+}
+.logo{
+    width: 30%;
+
+}
+    nav{
+    display: flex;
+    width: 100%;
+  /* flex-direction: column; */
+}
+.barredenavigation{
+   /* flex-wrap: wrap; */
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    width: 70%;
+    height: 4em; 
+    /* justify-content: space-between;  */
+    /* margin-top: 1.5em;       */
+}
+.menu{
+    width: 100%;  
+    display: flex;
+    justify-content: space-between;     
+}
+#logo{
+    width: 70%;
+    height: 4em;
+    float: left;
+}
+#lodgingall{     
+    width: 95%;
+    margin: auto;
+    display: grid;
+grid-template-columns: 1fr 1fr;
+grid-gap: 0em 0em;
+} 
+.lodging{          
+    width: 30em;
+    height: 20em;
+} 
+section{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 1300px; 
+    margin: auto;  
+}
+.popular{
+    margin-left: 2em;
+    width: 1300px;
+    
+}
+#am{
+    margin-top: 2em;
+}
+.activities{
+  
+    display: grid ;
+grid-template-columns: 1fr 1fr;
+grid-gap: 0em 0em;
+}
+.activity1 img{
+    width: 95%;
+    height: 40em;
+    margin: auto;
+    
+}
+
+.activity2 img{
+  width: 95%;
+  height: 18em;
+margin: auto;    
+}
+}
